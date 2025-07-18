@@ -44,20 +44,22 @@
 
 ---
 
-## 📁 Folder Structure
+## ✅ Setup Instructions
 
-StorySketch/
-├── Frontend/ # Streamlit UI
-│ └── main.py
-├── llm/ # Story and scene logic
-│ └── llm_prompts.py
-├── image_generator.py # Image generation logic
-├── image_audio_generator.py# Generate images + audio + video
-├── merge_videos.py # Merges all scene videos
-├── audio_translation.py # Transcribes recorded audio
-├── pipeline.py # (Optional) run full pipeline from CLI
-├── data/ # Stores all assets
-│ ├── images/
-│ ├── audio/
-│ └── videos/
+### 1️⃣ Install Required Python Packages
+
+Make sure you're in a virtual environment (optional but recommended):
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # For Linux/macOS
+# OR
+.venv\Scripts\activate      # For Windows
+
+pip install streamlit langchain groq gtts moviepy replicate audiorecorder python-dotenv
+
+Create a .env file in the root of your project and add your API keys:
+
+GROQ_API_KEY=your_groq_key
+REPLICATE_API_TOKEN=your_replicate_key   # If using replicate.run
 ---
