@@ -23,7 +23,7 @@
 2. **Transcription** — If using voice, it's transcribed using Whisper (Groq).
 3. **Story Generation** — A child-friendly story is generated using LLaMA via LangChain.
 4. **Scene Extraction** — The story is broken into vivid, image-ready sentences.
-5. **Image Generation** — Each scene is turned into an image using Replicate or Hugging Face models (e.g., Flux).
+5. **Image Generation** — Each scene is turned into an image using Replicate (e.g., Flux).
 6. **Audio Narration** — Each scene is narrated using Google TTS (gTTS).
 7. **Video Creation** — Image + audio merged into short clips and then combined into a single video.
 8. **Playback** — Streamlit displays the story and final video in-browser.
@@ -60,4 +60,4 @@ StorySketch/
 │ ├── images/
 │ ├── audio/
 │ └── videos/
-
+---
