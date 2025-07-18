@@ -55,11 +55,16 @@ python -m venv .venv
 source .venv/bin/activate   # For Linux/macOS
 # OR
 .venv\Scripts\activate      # For Windows
-
+```
+---
+Install the necessary libraries : 
+```bash
 pip install streamlit langchain groq gtts moviepy replicate audiorecorder python-dotenv
-
+```
+---
 Create a .env file in the root of your project and add your API keys:
-
+```bash
 GROQ_API_KEY=your_groq_key
 REPLICATE_API_TOKEN=your_replicate_key   # If using replicate.run
+```
 ---
