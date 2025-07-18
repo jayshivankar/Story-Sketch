@@ -46,3 +46,18 @@
 
 ## 📁 Folder Structure
 
+StorySketch/
+├── Frontend/ # Streamlit UI
+│ └── main.py
+├── llm/ # Story and scene logic
+│ └── llm_prompts.py
+├── image_generator.py # Image generation logic
+├── image_audio_generator.py# Generate images + audio + video
+├── merge_videos.py # Merges all scene videos
+├── audio_translation.py # Transcribes recorded audio
+├── pipeline.py # (Optional) run full pipeline from CLI
+├── data/ # Stores all assets
+│ ├── images/
+│ ├── audio/
+│ └── videos/
+
