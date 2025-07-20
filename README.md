@@ -68,3 +68,9 @@ GROQ_API_KEY=your_groq_key
 REPLICATE_API_TOKEN=your_replicate_key   # If using replicate.run
 ```
 ---
+Images
+
+<img width="1596" height="897" alt="StorySketch_2" src="https://github.com/user-attachments/assets/e6db0edd-601d-4265-ac66-2306c4973ed9" />
+
+
+---
