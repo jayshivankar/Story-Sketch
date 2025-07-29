@@ -1,5 +1,5 @@
 import streamlit as st
-from audiorecorder import audiorecorder
+from streamlit_audio_recorder import audio_recorder
 from audio_translation import transcribe_audio, save_text
 import sys
 import os
