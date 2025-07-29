@@ -1,4 +1,5 @@
 streamlit
+streamlit-webrtc
 langchain
 gtts
 moviepy
@@ -7,4 +8,5 @@ python-dotenv
 openai
 pydub
 ffmpeg-python
+
 
