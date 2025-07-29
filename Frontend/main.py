@@ -44,14 +44,12 @@ with col2:
             return frame
 
     ctx = webrtc_streamer(
-        key="audio",
-        mode=WebRtcMode.SENDRECV,
-        in_audio=True,
-        video_processor_factory=None,
-        audio_processor_factory=AudioProcessor,
-        media_stream_constraints={"video": False, "audio": True},
-        async_processing=True,
-    )
+    key="audio",
+    mode=WebRtcMode.SENDRECV,
+    audio_processor_factory=AudioProcessor,
+    media_stream_constraints={"video": False, "audio": True},
+    async_processing=True
+)
 
     wav_bytes = None
     if ctx.audio_processor:
