@@ -1,0 +1,10 @@
+# render.yaml
+services:
+  - type: web
+    name: storysketch
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run Frontend/main.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
