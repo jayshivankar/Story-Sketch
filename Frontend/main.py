@@ -13,7 +13,7 @@ from image_audio_generator import generate_all_assets
 from merge_videos import merge_all_scenes
 
 # ✅ Streamlit WebRTC for recording audio
-from streamlit_webrtc import webrtc_streamer, WebRtcMode, ClientSettings
+from streamlit_webrtc import webrtc_streamer, WebRtcMode
 import av
 import numpy as np
 
