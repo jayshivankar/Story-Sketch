@@ -4,4 +4,7 @@ gtts
 moviepy
 replicate
 python-dotenv
-audiorecorder
+openai
+pydub
+ffmpeg-python
+streamlit_audio_recorder @ git+https://github.com/stefanrmmr/streamlit_audio_recorder
