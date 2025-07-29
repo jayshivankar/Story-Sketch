@@ -1,0 +1,7 @@
+streamlit
+langchain
+gtts
+moviepy
+replicate
+python-dotenv
+audiorecorder
